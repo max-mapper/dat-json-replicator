@@ -1,0 +1,26 @@
+{
+  "name": "dat-json-replicator",
+  "version": "1.0.0",
+  "description": "Replicate a dat instance to another one in a dumb way using the JSON changes feed and a bunch of attachment GETs",
+  "main": "index.js",
+  "author": "max ogden",
+  "license": "BSD",
+  "dependencies": {
+    "extend": "^1.2.1",
+    "request": "^2.36.0",
+    "stream-combiner": "^0.2.1",
+    "through2": "^0.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maxogden/dat-json-replicator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxogden/dat-json-replicator/issues"
+  },
+  "homepage": "https://github.com/maxogden/dat-json-replicator"
+}
